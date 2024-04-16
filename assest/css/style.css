@@ -1,0 +1,155 @@
+/* Estilos CSS personalizados */
+.navbar {
+  background-color: #000;
+}
+
+/* Estilos para el campo de búsqueda */
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+/*estilos para el carrusel*/
+.carousel-item {
+
+  height: 500px !important;
+}
+
+.carrusel {
+  align-items: center;
+
+}
+
+/* estilo para h1*/
+h1 {
+  font-size: 20px;
+}
+
+/* estilo para el body*/
+body {
+  background-image: url("../img/fondo.jpg");
+}
+
+/* estilo para cuerpo de login y contacto*/
+.form-group {
+  padding-bottom: 20px;
+
+}
+
+/* estilo para cuerpo de login y contacto*/
+.form-group label {
+  display: block;
+  color: #000000;
+  padding-bottom: 5px;
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: inherit;
+  height: 100%;
+}
+
+/* */
+.container-fluid2 {
+  background-color: black;
+}
+
+/*estilos para card de contacto */
+.formulario {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 60%;
+  height: 80%;
+  border-radius: 15%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+
+
+}
+
+h2 {
+  font-size: 40px;
+}
+
+/* Estilos para card de login*/
+.formularioIni {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 40%;
+  height: 100%;
+  border-radius: 15%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+
+}
+
+/*Estilos para el fondo del footer*/
+footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  /* Color de fondo del footer */
+  color: #fff;
+  /* Color del texto del footer */
+  padding: 4px;
+  /* Espaciado interno del footer */
+}
+
+/*Estilos para los enlaces dentro del footer*/
+footer a {
+  color: #fff;
+  /* Color de los enlaces */
+  text-decoration: none;
+  /* Sin subrayado */
+  padding-right: 15px;
+  /* Espacio entre los enlaces */
+}
+
+footer li {
+  display: inline;
+  /* Mostrar en línea */
+  padding-right: 10px;
+  /* Espacio entre los elementos de la lista */
+}
+
+/*Estilo para seccion de noticias*/
+.noticias {
+
+  list-style-type: none;
+  /* Elimina las viñetas (puntos negros) */
+  display: inline;
+  /* Mostrar en línea */
+  padding-right: 29px;
+  /* Espacio entre los elementos de la lista */
+  padding-bottom: 5%;
+}
+
+.noticias a {
+  display: inline-flex;
+  /* Mostrar en línea */
+  padding-right: 29px;
+  /* Espacio entre los elementos de la lista */
+}
+
+
+
+.about-section {
+  text-align: center;
+  /* Centra el texto horizontalmente */
+  width: 80%;
+  /* Anchura del div */
+  max-width: 600px;
+  /* Anchura máxima del div */
+}
+
+/*tamaño caja comentarios*/
+textarea {
+  width: 80%;
+  /* Ajusta el ancho al 100% del contenedor */
+  height: 50px;
+  /* Ajusta la altura a 150 píxeles (puedes ajustar este valor según tus necesidades) */
+}
